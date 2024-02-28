@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "287897879279",
+    "project_id": "meditation-3edba",
+    "storage_bucket": "meditation-3edba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287897879279:android:21d1124fafba28fdd0911a",
+        "android_client_info": {
+          "package_name": "com.zenzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287897879279-h350fpnlc15v5qa5l721mh2lmdvkq1pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAK3WwcHOBtvLq3mj6SpkqvCld0cMgEzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287897879279-h350fpnlc15v5qa5l721mh2lmdvkq1pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "287897879279-6fa7dk973q2eu8prcd09nel5tr216jv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.bhattaraijay05.zenzone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

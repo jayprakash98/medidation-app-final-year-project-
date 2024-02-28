@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "zenzone",
+    "slug": "zenzone",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00203f"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zenzone",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "jsEngine": "jsc",
+      "runtimeVersion": "jsc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#00203f"
+      },
+      "package": "com.zenzone",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"]
+  }
+}

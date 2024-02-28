@@ -1,0 +1,25 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      // "*": ["./app/*"],
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./app/components/*"],
+      "@config/*": ["./app/config/*"],
+      "@constants/*": ["./app/constants/*"],
+      "@navigation/*": ["./app/navigation/*"],
+      "@screens/*": ["./app/screens/*"],
+      "@hooks/*": ["./app/hooks/*"],
+      "@context/*": ["./app/context/*"],
+      "@helpers/*": ["./app/helpers/*"],
+      "@elements/*": ["./app/elements/*"],
+      "@utils/*": ["./app/utils/*"],
+      "@redux/*": ["./app/redux/*"],
+      "@shared/*": ["./app/shared/*"],
+      "@graphql/*": ["./app/graphql/*"],
+      "@camera/*": ["./app/camera/*"]
+    }
+  }
+}
